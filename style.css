@@ -1,0 +1,123 @@
+body{
+    background-color: #f5f5f5;
+}
+.frame{
+    position: absolute;
+    width: 620px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: url('images/Rectangle.png'), #c4c4c4;
+
+}
+
+.speak{
+    position: absolute;
+width: 361px;
+height: 98px;
+left: 72px;
+top: 463px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+
+.side{
+    position: absolute;
+    width: 1250px;
+    height: 1024px;
+    left: 505px;
+    top: 0px;
+    background-color: #f5f5f5;
+}
+
+.welcome-text{
+    position: absolute;
+width: 170px;
+height: 44px;
+left: 542px;
+top: 189px;
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+}
+
+.home-text{
+    position: absolute;
+    width: 44px;
+    height: 17px;
+    left: 1288px;
+    top: 30px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+.lets-text{
+    position: absolute;
+width: 265px;
+height: 22px;
+left: 542px;
+top: 263px;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+
+color: rgba(0, 0, 0, 0.7)
+}
+
+form{
+    position: absolute;
+left: 542px;
+top: 335px;
+}
+
+.input{
+    
+width: 460px;
+height: 35px;
+    background: #FFFFFF;
+border: 1px solid #3B5998;
+box-sizing: border-box;
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+}
+
+.create-btn{
+    
+width: 140px;
+height: 38px;
+
+background: #0A2D78;
+border-radius: 7px;
+}
+
+.cancel-btn{
+    width: 140px;
+    height: 38px;
+border: 2px solid #3B5998;
+box-sizing: border-box;
+border-radius: 7px;
+}
